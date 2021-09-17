@@ -1,0 +1,30 @@
+## Commands Run Thus Far
+
+# Clone repository
+git clone git@github.com:rachel-l-ross/Computational-Social-Science-Projects.git
+
+# CD into cloned repo
+cd Computational-Social-Science-Projects
+
+# Create folder called "Project 1"
+mkdir "Project 1"
+
+# Create a text file in the "Project 1" folder
+touch Project\ 1/textfile
+
+# CD into "Project 1"
+cd "Project 1"
+
+# Edited the text file (tried a non-VIM option for learning)
+nano textfile
+
+## Commands to Add, Commit, and Push Changes to GitHub Repo
+
+# Add textfile
+git add textfile
+
+# Commit changes
+git commit -m "initialize project 1"
+
+# Push changes to github rep
+git push
